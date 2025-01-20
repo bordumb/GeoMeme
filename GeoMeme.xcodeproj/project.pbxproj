@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1CC1D4BA2D3EAE6E008C35A2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1D4B62D3EAE6E008C35A2 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1CC1D4932D3EAE3B008C35A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,24 +31,12 @@
 		1CC1D47E2D3EAE3A008C35A2 /* GeoMeme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoMeme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC1D4922D3EAE3B008C35A2 /* GeoMemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoMemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC1D49C2D3EAE3B008C35A2 /* GeoMemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoMemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC1D4B62D3EAE6E008C35A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1CC1D4A42D3EAE3B008C35A2 /* Exceptions for "GeoMeme" folder in "GeoMeme" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 1CC1D47D2D3EAE3A008C35A2 /* GeoMeme */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1CC1D4802D3EAE3A008C35A2 /* GeoMeme */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1CC1D4A42D3EAE3B008C35A2 /* Exceptions for "GeoMeme" folder in "GeoMeme" target */,
-			);
 			path = GeoMeme;
 			sourceTree = "<group>";
 		};
@@ -92,6 +84,7 @@
 				1CC1D4952D3EAE3B008C35A2 /* GeoMemeTests */,
 				1CC1D49F2D3EAE3B008C35A2 /* GeoMemeUITests */,
 				1CC1D47F2D3EAE3A008C35A2 /* Products */,
+				1CC1D4B62D3EAE6E008C35A2 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -225,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC1D4BA2D3EAE6E008C35A2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
